@@ -1,0 +1,5 @@
+FROM debian:9.4
+
+COPY fichier /root
+
+CMD ["ls", "$HOME"]
